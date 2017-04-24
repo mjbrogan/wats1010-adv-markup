@@ -1,1 +1,76 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  background-color: sandybrown;
+  margin: 8%;
+  text-align: justify
+}
+nav ul li {
+  display: inline;
+  background-color: lightblue;
+}
+a.active {
+  font-weight: bold;
+}
+li a:hover {
+  background-color: lightgreen;
+}
+h1 {
+  background-color: lightblue;
+  color: brown;
+  font-family: papyrus;
+}
+h2 {
+  color: brown;
+  font-family: papyrus;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 15px;
+}
+/ * content * /
+.bio-photo {
+  width: 300px;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+}
+.poem {
+  font-family: papyrus;
+  list-style: none;
+  width: 500px;
+  margin: 20px;
+  padding: 15px;
+}
+/* table */
+table {
+    margin: 3em;
+    text-align: left;
+}
+table, th, td {
+    border: 3px solid darkslateblue;
+    border-collapse: collapse;
+}
+table caption {
+    text-align: left;
+}
+/* social media */
+twitter img {
+  width: 6em;
+  height: auto;
+}
+facebook img {
+  width: 6em;
+  height: auto;
+}
+pinterest img {
+  width: 6em;
+  height: auto;
+}
+
+
+
+
+  
